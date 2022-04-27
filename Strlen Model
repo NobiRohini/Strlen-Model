@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+int x;
+char name[15];
+gets(name);
+x=strlen(name);
+printf("%d",x);
+}
